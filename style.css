@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* Style da barra de navegação*/
+header{
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 18px;
+  margin-top: 13px;
+  margin-left: 6rem;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+}
+.tenis-icon {
+  padding-top: 15px;
+  width: 52px;
+  height: 36.4px;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 45rem;
+  padding-top: 15px;
+}
+#p-menu{
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+  padding: 4px;
+}
+#p-menu:hover{
+  background-color:#fffbfb ;
+  cursor: pointer;
+ 
+}
+.pesquisar {
+  width: 220px;
+  height: 35px;
+  margin-top: 10px;
+  background-image: url(./assets/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  padding-left: 35px;
+
+  border: none;
+}
+.pesquisar ::placeholder {
+  font-size: 18px;
+  color: #9c9696;
+}
+
+.bag-icon {
+  padding-left: 95.25px;
+  position: right;
+}
+.bag-icon:hover{
+  cursor: pointer;
+}
+
+/* Corpo, parte 1*/
+
+body {
+  background-color: #ececed;
+  height: 100%;
+}
+
+main {
+  display: flex;
+}
+.titulo {
+  margin-top: 100px;
+  margin-left: 111px;
+  width: 23rem;
+  word-wrap: break-word;
+
+  font-size: 30px;
+}
+
+#descrição {
+  color: #9c9696;
+  font-size: 16px;
+}
+
+#preço {
+  color: #000000;
+  font-size: 40px;
+  font-weight: bold;
+}
+#button-comprar {
+  width: 240px;
+  height: 75px;
+  background-color: #ff0000;
+
+  font-size: 24px;
+  color: #ffffff;
+  border: none;
+
+}
+#button-comprar:hover{
+    background-color:#ff1717e0;
+    cursor: pointer;
+}
+/* Corpo, parte 2*/
+section {
+  width: 850px;
+  height: 780px;
+  background-color: #c4c4c4;
+
+  display: list-item;
+
+  margin-left: 40px;
+
+  list-style: none;
+}
+.img-P {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+#img-1 {
+  margin-top: 5rem;
+  width: 570px;
+  height: 480px;
+
+  margin-left: 110px;
+}
+#img-section {
+  width: 270px;
+  height: 184px;
+
+  overflow: hidden;
+}
+
+#img-section {
+max-width: 100%;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+#img-section:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transition: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    padding-bottom: 5px;
+}
+.footer{
+    display: flex;
+   width: 180rem;
+   justify-content: space-between;
+}
+
+#img-footer{
+    width: 270px;
+    height: 140px;
+
+    margin-right: 10px;
+}
+#img-footer:hover{
+  cursor: pointer;
+}
+#a-footer {
+   
+  font-size: 18px;
+  font-weight: bold;
+margin-top: 5rem;
+  text-decoration: none;
+}
+
+#a-footer:hover{
+cursor: pointer;
+}
+#explore{
+    width: 20rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+
+    text-align: center;
+    font-size: 18px;
+}
+#ex-icon{
+    padding-left: 5px;
+    padding-top: 5px;
+
+    height: 20px;
+}
+#explore:hover{
+    background-color:#000000d3;
+    cursor: pointer;
+}
